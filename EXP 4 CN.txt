@@ -1,0 +1,151 @@
+Microsoft Windows [Version 10.0.26200.8457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Sri  Saran>ping google.com
+
+Pinging google.com [2404:6800:4007:83e::200e] with 32 bytes of data:
+Reply from 2404:6800:4007:83e::200e: time=52ms
+Reply from 2404:6800:4007:83e::200e: time=186ms
+Reply from 2404:6800:4007:83e::200e: time=10ms
+Reply from 2404:6800:4007:83e::200e: time=16ms
+
+Ping statistics for 2404:6800:4007:83e::200e:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 10ms, Maximum = 186ms, Average = 66ms
+
+C:\Users\Sri  Saran>ipconfig
+
+Windows IP Configuration
+
+
+Unknown adapter McAfee VPN:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2403:8600:c090:51:5ef0:a147:47e5:4bf7
+   Temporary IPv6 Address. . . . . . : 2403:8600:c090:51:d952:b277:32c7:75a2
+   Link-local IPv6 Address . . . . . : fe80::3007:7909:14e1:5d64%12
+   Autoconfiguration IPv4 Address. . : 169.254.156.178
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . : fe80::eedd:24ff:fe3d:ced5%12
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+C:\Users\Sri  Saran>ifconfig
+'ifconfig' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Sri  Saran>tracertgoogle.com
+'tracertgoogle.com' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Sri  Saran>tracert google.com
+
+Tracing route to google.com [2404:6800:4007:83e::200e]
+over a maximum of 30 hops:
+
+  1     4 ms     5 ms     8 ms  2403:8600:c090:51::1
+  2     *        *        *     Request timed out.
+  3     *        *        *     Request timed out.
+  4     8 ms     6 ms    10 ms  lcmaaa-bc-in-x0e.1e100.net [2404:6800:4007:83e::200e]
+
+Trace complete.
+
+C:\Users\Sri  Saran>netst
+'netst' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Sri  Saran>
+C:\Users\Sri  Saran>
+C:\Users\Sri  Saran>
+C:\Users\Sri  Saran>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:49727        gen-webserver:49728    ESTABLISHED
+  TCP    127.0.0.1:49728        gen-webserver:49727    ESTABLISHED
+  TCP    127.0.0.1:49729        gen-webserver:49730    ESTABLISHED
+  TCP    127.0.0.1:49730        gen-webserver:49729    ESTABLISHED
+  TCP    127.0.0.1:49731        gen-webserver:49732    ESTABLISHED
+  TCP    127.0.0.1:49732        gen-webserver:49731    ESTABLISHED
+  TCP    127.0.0.1:51647        gen-webserver:51648    ESTABLISHED
+  TCP    127.0.0.1:51648        gen-webserver:51647    ESTABLISHED
+  TCP    [2403:8600:c090:51:5ef0:a147:47e5:4bf7]:64367  [2403:8600:80c0:4a::e62:100b]:http  TIME_WAIT
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:50106  [2603:1040:a06:6::]:https  ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:52324  [64:ff9b::acbc:9b19]:https  ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:55373  whatsapp-cdn6-shv-02-maa3:5222  ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:55642  dns:https              ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:57949  [2620:1ec:33:1::11]:https  ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:57951  [64:ff9b::491:b24]:https  ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:57952  [64:ff9b::491:b24]:https  ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:58234  [64:ff9b::1421:6900]:https  ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:58287  [2603:1063:2001:1905::365:ff1]:https  ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:59534  dns64:https            ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:60200  dns:https              ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:61360  dns64:https            ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:64368  [2403:8600:80c0:4a::e62:100b]:http  TIME_WAIT
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:64412  [2603:1040:a06:6::]:https  ESTABLISHED
+  TCP    [2403:8600:c090:51:d952:b277:32c7:75a2]:65097  dns64:https            TIME_WAIT
+
+C:\Users\Sri  Saran>nslookup google.com
+Server:  dns64.dns.google
+Address:  2001:4860:4860::6464
+
+Non-authoritative answer:
+Name:    google.com
+Addresses:  2404:6800:4007:83e::200e
+          172.217.24.174
+
+
+C:\Users\Sri  Saran>arp -a
+
+Interface: 169.254.156.178 --- 0xc
+  Internet Address      Physical Address      Type
+  169.254.56.217        e0-2e-0b-3a-7b-bd     dynamic
+  169.254.78.25         e0-2e-0b-3b-3d-8c     dynamic
+  169.254.239.111       e0-2e-0b-30-1a-c9     dynamic
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+C:\Users\Sri  Saran>hostname
+DESKTOP-0GV22JC
+
+C:\Users\Sri  Saran>getmac
+
+Physical Address    Transport Name
+=================== ==========================================================
+FC-B3-AA-EE-8A-90   \Device\Tcpip_{71C99036-6247-441A-9CC1-47C37DD5D0DA}
+34-1A-4D-76-A1-5A   Media disconnected
+00-FF-B3-19-91-ED   Media disconnected
+
+C:\Users\Sri  Saran>pathping google.com
+
+Tracing route to google.com [2404:6800:4007:83e::200e]
+over a maximum of 30 hops:
+  0  DESKTOP-0GV22JC [2403:8600:c090:51:d952:b277:32c7:75a2]
+  1  2403:8600:c090:51::1
+  2     *        *        *
+Computing statistics for 25 seconds...
