@@ -30,6 +30,7 @@ This commands includes
 Microsoft Windows [Version 10.0.26200.8457]
 (c) Microsoft Corporation. All rights reserved.
 
+## 1 ___:
 C:\Users\Sri  Saran>ping google.com
 
 Pinging google.com [2404:6800:4007:83e::200e] with 32 bytes of data:
@@ -43,6 +44,7 @@ Ping statistics for 2404:6800:4007:83e::200e:
 Approximate round trip times in milli-seconds:
     Minimum = 10ms, Maximum = 186ms, Average = 66ms
 
+## 2____
 C:\Users\Sri  Saran>ipconfig
 
 Windows IP Configuration
@@ -78,6 +80,7 @@ Ethernet adapter Ethernet:
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . :
 
+##___3
 C:\Users\Sri  Saran>ifconfig
 'ifconfig' is not recognized as an internal or external command,
 operable program or batch file.
@@ -86,6 +89,7 @@ C:\Users\Sri  Saran>tracertgoogle.com
 'tracertgoogle.com' is not recognized as an internal or external command,
 operable program or batch file.
 
+##__4
 C:\Users\Sri  Saran>tracert google.com
 
 Tracing route to google.com [2404:6800:4007:83e::200e]
